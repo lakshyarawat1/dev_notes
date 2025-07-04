@@ -52,3 +52,40 @@
 - Model based test automation in tosca, while selenium is code based.
 - Supports API and load testing, while Selenium is mainly for functional testing.
 
+## Scanning
+
+- The elements that needs to be interacted with are called controls.
+- Scanning grabs all information on the controls and saves it in modules.
+
+## Modules
+
+- Building blocks of the tests.
+- Contains all technical information of the controls.
+- We can create modules by scanning the application or by manually creating them.
+
+
+## Test Cases
+
+- Sequence of actions to be performed on the application.
+- Called as Test Steps in Tosca.
+
+### Creating Test cases
+
+- Specify which modules should be used in the test case.
+- Drag and drop the modules into the test case.
+- Fill in the parameters for the modules. i.e. the values that should be used during the test execution.
+
+### Creating automated test cases
+
+- Identify requirements that you expect from the test.
+- Optionally, design logical test structure to set which tests you need to cover the requirements.
+- Scan the system under test to create modules.
+- Create test cases out of the modules.
+- Run tests.
+
+## Workspaces
+
+- A workspace is a collection of test cases, modules, and other artifacts.
+- Two types :
+    - Single user : Only one person needs access to data.
+    - Multi user : Multiple people need access to data.
