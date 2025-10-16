@@ -174,3 +174,13 @@
     - Select either Oracle Linux 7 (OL7) or OL8 image with release date of Mar 28,2023 or later.
     - Get the image OCID from OKE Worker Node Oracle Linux 7.x Images or OKE Worker Node Oracle Linux 8.x Images
     - Kubernetes version compatibility
+
+## OCI Service Operator for Kubernetes
+
+- Open source kubernetes add-on, which facilitates the management and connection of OCI resources.
+- Enables you to create, configure and interact with OCI resources natively within kubernetes clusters.
+- Eliminates the need for OCI console, CLI or other tools
+- Interact with the services by using kubectl to call the Operator Framework APIs
+- Operators have :
+    - Operator SDKs : Uses kubernetes controller runtime library for high-level APIs, abstractions, scaffolding and code generation.
+    - Operator Lifecycle Manager (OLM) : Extends kubernetes to declaratively install, manage and upgrade operators within clusters.
